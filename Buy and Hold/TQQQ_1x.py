@@ -3,7 +3,7 @@ from AlgorithmImports import *
 
 class BuyAndHold(QCAlgorithm):
     def Initialize(self):
-        self.SetStartDate(2010, 1, 1)  # Set Start Date
+        self.SetStartDate(2010, 2, 12)  # Set Start Date
         self.SetEndDate(datetime.now() - timedelta(1))  # Set End Date using relative date
         self.SetCash(100_000)  # Set Strategy Cash
         self.SetBrokerageModel(BrokerageName.InteractiveBrokersBrokerage, AccountType.Margin) # Set Margin account
